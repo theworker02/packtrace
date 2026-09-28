@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/packtrace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pack identifiers and trace tokens for idempotent workflows.",
+  "bin": {
+    "packtrace": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/packtrace.git"
+  },
+  "homepage": "https://theworker02.github.io/packtrace/",
+  "keywords": [
+    "pack",
+    "trace",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
